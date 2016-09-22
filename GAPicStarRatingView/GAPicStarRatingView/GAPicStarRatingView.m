@@ -247,6 +247,9 @@
     _isAdjustingSubviewFrame = YES;
     [self displayStarAnimated:_sholudAnimateWhenTap];
 
+    if (_delegate&&[_delegate respondsToSelector:@selector(GAPicStarRatingViewHasBeenTapped:)]) {
+        [_delegate GAPicStarRatingViewHasBeenTapped:self];
+    }
   
 }
 

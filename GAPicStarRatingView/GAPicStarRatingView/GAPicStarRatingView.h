@@ -16,6 +16,16 @@ typedef NS_ENUM(NSUInteger, GAPicStarViewDisplayStyle) {
 };
 
 
+#pragma mark GAPicStarRatingViewDelegate
+@class GAPicStarRatingView;
+@protocol GAPicStarRatingViewDelegate <NSObject>
+
+- (void)GAPicStarRatingViewHasBeenTapped:(GAPicStarRatingView *)view;
+
+@end
+
+
+
 @interface GAPicStarRatingView : UIView
 
 //满分数,默认5
@@ -40,6 +50,7 @@ typedef NS_ENUM(NSUInteger, GAPicStarViewDisplayStyle) {
 //是否能够点击设置
 @property (nonatomic,assign) IBInspectable BOOL isSettable;
 
+@property (nonatomic,weak) id<GAPicStarRatingViewDelegate> delegate;
 
 
 
