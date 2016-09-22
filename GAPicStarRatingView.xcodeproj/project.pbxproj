@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC71BB3D1D928A45001EAA23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC71BB3C1D928A45001EAA23 /* main.m */; };
+		DC71BB401D928A45001EAA23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC71BB3F1D928A45001EAA23 /* AppDelegate.m */; };
+		DC71BB431D928A45001EAA23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC71BB421D928A45001EAA23 /* ViewController.m */; };
+		DC71BB461D928A45001EAA23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC71BB441D928A45001EAA23 /* Main.storyboard */; };
+		DC71BB481D928A45001EAA23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC71BB471D928A45001EAA23 /* Assets.xcassets */; };
+		DC71BB4B1D928A45001EAA23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC71BB491D928A45001EAA23 /* LaunchScreen.storyboard */; };
+		DC71BB5B1D928AB7001EAA23 /* GAPicStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC71BB541D928AB7001EAA23 /* GAPicStarRatingView.m */; };
+		DC71BB681D928B35001EAA23 /* GAStar-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = DC71BB621D928B35001EAA23 /* GAStar-Selected.png */; };
+		DC71BB691D928B35001EAA23 /* GAStar-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC71BB631D928B35001EAA23 /* GAStar-Selected@2x.png */; };
+		DC71BB6A1D928B35001EAA23 /* GAStar-Selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC71BB641D928B35001EAA23 /* GAStar-Selected@3x.png */; };
+		DC71BB6B1D928B35001EAA23 /* GAStar-Unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = DC71BB651D928B35001EAA23 /* GAStar-Unselected.png */; };
+		DC71BB6C1D928B35001EAA23 /* GAStar-Unselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC71BB661D928B35001EAA23 /* GAStar-Unselected@2x.png */; };
+		DC71BB6D1D928B35001EAA23 /* GAStar-Unselected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC71BB671D928B35001EAA23 /* GAStar-Unselected@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC71BB381D928A45001EAA23 /* GAPicStarRatingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GAPicStarRatingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC71BB3C1D928A45001EAA23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC71BB3E1D928A45001EAA23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC71BB3F1D928A45001EAA23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC71BB411D928A45001EAA23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC71BB421D928A45001EAA23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC71BB451D928A45001EAA23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC71BB471D928A45001EAA23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC71BB4A1D928A45001EAA23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC71BB4C1D928A45001EAA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC71BB531D928AB7001EAA23 /* GAPicStarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAPicStarRatingView.h; sourceTree = "<group>"; };
+		DC71BB541D928AB7001EAA23 /* GAPicStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAPicStarRatingView.m; sourceTree = "<group>"; };
+		DC71BB621D928B35001EAA23 /* GAStar-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GAStar-Selected.png"; sourceTree = "<group>"; };
+		DC71BB631D928B35001EAA23 /* GAStar-Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GAStar-Selected@2x.png"; sourceTree = "<group>"; };
+		DC71BB641D928B35001EAA23 /* GAStar-Selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GAStar-Selected@3x.png"; sourceTree = "<group>"; };
+		DC71BB651D928B35001EAA23 /* GAStar-Unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GAStar-Unselected.png"; sourceTree = "<group>"; };
+		DC71BB661D928B35001EAA23 /* GAStar-Unselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GAStar-Unselected@2x.png"; sourceTree = "<group>"; };
+		DC71BB671D928B35001EAA23 /* GAStar-Unselected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GAStar-Unselected@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC71BB351D928A45001EAA23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC71BB2F1D928A45001EAA23 = {
+			isa = PBXGroup;
+			children = (
+				DC71BB3A1D928A45001EAA23 /* GAPicStarRatingView */,
+				DC71BB391D928A45001EAA23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC71BB391D928A45001EAA23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC71BB381D928A45001EAA23 /* GAPicStarRatingView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC71BB3A1D928A45001EAA23 /* GAPicStarRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				DC71BB521D928AB7001EAA23 /* GAPicStarRatingView */,
+				DC71BB3E1D928A45001EAA23 /* AppDelegate.h */,
+				DC71BB3F1D928A45001EAA23 /* AppDelegate.m */,
+				DC71BB411D928A45001EAA23 /* ViewController.h */,
+				DC71BB421D928A45001EAA23 /* ViewController.m */,
+				DC71BB441D928A45001EAA23 /* Main.storyboard */,
+				DC71BB471D928A45001EAA23 /* Assets.xcassets */,
+				DC71BB491D928A45001EAA23 /* LaunchScreen.storyboard */,
+				DC71BB4C1D928A45001EAA23 /* Info.plist */,
+				DC71BB3B1D928A45001EAA23 /* Supporting Files */,
+			);
+			path = GAPicStarRatingView;
+			sourceTree = "<group>";
+		};
+		DC71BB3B1D928A45001EAA23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC71BB3C1D928A45001EAA23 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC71BB521D928AB7001EAA23 /* GAPicStarRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				DC71BB621D928B35001EAA23 /* GAStar-Selected.png */,
+				DC71BB631D928B35001EAA23 /* GAStar-Selected@2x.png */,
+				DC71BB641D928B35001EAA23 /* GAStar-Selected@3x.png */,
+				DC71BB651D928B35001EAA23 /* GAStar-Unselected.png */,
+				DC71BB661D928B35001EAA23 /* GAStar-Unselected@2x.png */,
+				DC71BB671D928B35001EAA23 /* GAStar-Unselected@3x.png */,
+				DC71BB531D928AB7001EAA23 /* GAPicStarRatingView.h */,
+				DC71BB541D928AB7001EAA23 /* GAPicStarRatingView.m */,
+			);
+			path = GAPicStarRatingView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC71BB371D928A45001EAA23 /* GAPicStarRatingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC71BB4F1D928A45001EAA23 /* Build configuration list for PBXNativeTarget "GAPicStarRatingView" */;
+			buildPhases = (
+				DC71BB341D928A45001EAA23 /* Sources */,
+				DC71BB351D928A45001EAA23 /* Frameworks */,
+				DC71BB361D928A45001EAA23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GAPicStarRatingView;
+			productName = GAPicStarRatingView;
+			productReference = DC71BB381D928A45001EAA23 /* GAPicStarRatingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC71BB301D928A45001EAA23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = GikkiAres;
+				TargetAttributes = {
+					DC71BB371D928A45001EAA23 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 25BP37Q35P;
+					};
+				};
+			};
+			buildConfigurationList = DC71BB331D928A45001EAA23 /* Build configuration list for PBXProject "GAPicStarRatingView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC71BB2F1D928A45001EAA23;
+			productRefGroup = DC71BB391D928A45001EAA23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC71BB371D928A45001EAA23 /* GAPicStarRatingView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC71BB361D928A45001EAA23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC71BB6C1D928B35001EAA23 /* GAStar-Unselected@2x.png in Resources */,
+				DC71BB4B1D928A45001EAA23 /* LaunchScreen.storyboard in Resources */,
+				DC71BB691D928B35001EAA23 /* GAStar-Selected@2x.png in Resources */,
+				DC71BB6A1D928B35001EAA23 /* GAStar-Selected@3x.png in Resources */,
+				DC71BB6D1D928B35001EAA23 /* GAStar-Unselected@3x.png in Resources */,
+				DC71BB6B1D928B35001EAA23 /* GAStar-Unselected.png in Resources */,
+				DC71BB481D928A45001EAA23 /* Assets.xcassets in Resources */,
+				DC71BB681D928B35001EAA23 /* GAStar-Selected.png in Resources */,
+				DC71BB461D928A45001EAA23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC71BB341D928A45001EAA23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC71BB431D928A45001EAA23 /* ViewController.m in Sources */,
+				DC71BB401D928A45001EAA23 /* AppDelegate.m in Sources */,
+				DC71BB5B1D928AB7001EAA23 /* GAPicStarRatingView.m in Sources */,
+				DC71BB3D1D928A45001EAA23 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC71BB441D928A45001EAA23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC71BB451D928A45001EAA23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC71BB491D928A45001EAA23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC71BB4A1D928A45001EAA23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC71BB4D1D928A45001EAA23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC71BB4E1D928A45001EAA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC71BB501D928A45001EAA23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 25BP37Q35P;
+				INFOPLIST_FILE = GAPicStarRatingView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Explorer.GAPicStarRatingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC71BB511D928A45001EAA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 25BP37Q35P;
+				INFOPLIST_FILE = GAPicStarRatingView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Explorer.GAPicStarRatingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC71BB331D928A45001EAA23 /* Build configuration list for PBXProject "GAPicStarRatingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC71BB4D1D928A45001EAA23 /* Debug */,
+				DC71BB4E1D928A45001EAA23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC71BB4F1D928A45001EAA23 /* Build configuration list for PBXNativeTarget "GAPicStarRatingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC71BB501D928A45001EAA23 /* Debug */,
+				DC71BB511D928A45001EAA23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC71BB301D928A45001EAA23 /* Project object */;
+}
